@@ -9,24 +9,154 @@
   <body>
     <header>
       <nav>
-        <img id="burger-icon" src="assets/images/menu.svg" alt="navbar burger icon">
-        <img id="youtube-logo" src="assets/images/youtube-logo.png" alt="youtube logo">
-        <span id="search-bar">
+        <span id="navbar-left">
+          <img class="navbar-item" id="burger-icon" src="assets/images/menu.svg" alt="navbar burger icon">
+          <img class="navbar-item" id="youtube-logo" src="assets/images/youtube-logo.png" alt="youtube logo">
+        </span>
+        
+        <span id="search-field-container">
           <input type="search" name="search" id="search-field">
-          <img id="keyboard" src="assets/images/keyboard.png" alt="keyboard">
-          <img src="assets/images/magnify.svg" alt="magnifying lens">
-          <img id="microphone" src="assets/images/microphone.svg" alt="microphone">
+          <img class="navbar-item" id="keyboard" src="assets/images/keyboard.png" alt="keyboard">
+          <img class="navbar-item" src="assets/images/magnify.svg" alt="magnifying lens">
+          <img class="navbar-item" id="microphone" src="assets/images/microphone.svg" alt="microphone">
         </span>
-        <span id="account controls">
-          <img src="assets/images/video-plus.svg" alt="create button">
-          <img src="assets/images/apps.svg" alt="apps button">
-          <img src="assets/images/account-circle.svg" alt="account button">
-        </span>
+
+        <span id="navbar-right">
+          <img class="navbar-item" src="assets/images/video-plus.svg" alt="create button">
+          <img class="navbar-item" src="assets/images/apps.svg" alt="apps button">
+          <img class="navbar-item" src="assets/images/alarm.svg" alt="notification-bell">
+          <img class="navbar-item" src="assets/images/account-circle.svg" alt="account button">
+        </span>  
+
       </nav>
     </header>
     <section class="main-video">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/Q-i1XZc8ZwA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      
+      <section class="video-primary-info">
+        <h1>King Gizzard & The Lizard Wizard - Rattlesnake (Official Video)</h1>
+        <span>
+          <p>4.728.004 visualizações</p>
+          <p>10 de nov. de 2016</p>
+        </span>
+        <span class="video-controls">
+          <img src="assets/images/thumb-up.svg" alt="thumb-up">
+          <p>68 MIL</p>
+          <img src="assets/images/thumb-down.svg" alt="thumb-down">
+          <p>1,9 MIL</p>
+          <img src="assets/images/share.svg" alt="share button">
+          <p>Compartilhar</p>
+          <img src="assets/images/playlist-plus.svg" alt="save button">
+          <p>Salvar</p>
+          <img src="assets/images/dots-horizontal.svg" alt="thumb-up">
+        </span>        
+      </section>
+      <section class="video-secondary-info">
+        <span class="channel-info">
+          <img src="assets/images/channel-logo.jpg" alt="channel-logo">
+          <h2>Flightless Records</h2>
+          <p>99,1 mil inscritos</p>
+          <p>INSCRITO</p>
+          <img class="navbar-item" id="notification-bell" src="assets/images/alarm.svg" alt="notifications config button">
+        </span>
+        <p id="video-description">Created by Jason Galea</p>
+        <p>MOSTRAR MAIS</p>
+      </section>
+      <section id="comments">
+        <span>
+          <p>4.516 comentários</p>
+          <img src="assets/images/sort.svg" alt="sort button">
+          <p>ORDENAR POR</p>
+        </span>
+        <div>
+          <img src="assets/images/account-circle.svg" alt="account logo">
+          <input type="text" name="comment" id="new-comment">
+        </div>
+        <section>
+
+          <div class="comment">
+            <img src="assets/images/user-logo-1.jpg" alt="user-profile-photo">
+            <h1>Brian Russell</h1>
+            <p>há 1 ano (editado)</p>
+            <p>Australians with a song about the only venomous snake that doesn't exist in Australia.</p>
+            <span>
+              <img src="assets/images/thumb-up.svg" alt="thumbs-up">
+              <p>3,9 mil</p>
+              <img src="assets/images/thumb-down.svg" alt="thumbs-down">
+              <p>RESPONDER</p>
+            </span>
+            <span>
+              <img src="assets/images/menu-down.svg" alt="menu-down-button">
+            </span>
+          </div>
+
+          <div class="comment">
+            <img src="assets/images/user-logo-2.jpg" alt="user-profile-photo">
+            <h1>Tobias Duck</h1>
+            <p>há 1 ano</p>
+            <p>When you get a green screen for Christmas</p>
+            <span>
+              <img src="assets/images/thumb-up.svg" alt="thumbs-up">
+              <p>3,4 mil</p>
+              <img src="assets/images/thumb-down.svg" alt="thumbs-down">
+              <p>RESPONDER</p>
+            </span>
+            <span>
+              <img src="assets/images/menu-down.svg" alt="menu-down-button">
+            </span>
+          </div>
+
+          <div class="comment">
+            <img src="assets/images/user-logo-3.jpg" alt="user-profile-photo">
+            <h1>Brian Russell</h1>
+            <p>há 1 ano (editado)</p>
+            <p>Australians with a song about the only venomous snake that doesn't exist in Australia.</p>
+            <span>
+              <img src="assets/images/thumb-up.svg" alt="thumbs-up">
+              <p>3,9 mil</p>
+              <img src="assets/images/thumb-down.svg" alt="thumbs-down">
+              <p>RESPONDER</p>
+            </span>
+            <span>
+              <img src="assets/images/menu-down.svg" alt="menu-down-button">
+            </span>
+          </div>
+
+          <div class="comment">
+            <img src="assets/images/user-logo-4.jpg" alt="user-profile-photo">
+            <h1>Brian Russell</h1>
+            <p>há 1 ano (editado)</p>
+            <p>Australians with a song about the only venomous snake that doesn't exist in Australia.</p>
+            <span>
+              <img src="assets/images/thumb-up.svg" alt="thumbs-up">
+              <p>3,9 mil</p>
+              <img src="assets/images/thumb-down.svg" alt="thumbs-down">
+              <p>RESPONDER</p>
+            </span>
+            <span>
+              <img src="assets/images/menu-down.svg" alt="menu-down-button">
+            </span>
+          </div>
+
+          <div class="comment">
+            <img src="assets/images/user-logo-5.jpg" alt="user-profile-photo">
+            <h1>Brian Russell</h1>
+            <p>há 1 ano (editado)</p>
+            <p>Australians with a song about the only venomous snake that doesn't exist in Australia.</p>
+            <span>
+              <img src="assets/images/thumb-up.svg" alt="thumbs-up">
+              <p>3,9 mil</p>
+              <img src="assets/images/thumb-down.svg" alt="thumbs-down">
+              <p>RESPONDER</p>
+            </span>
+            <span>
+              <img src="assets/images/menu-down.svg" alt="menu-down-button">
+            </span>
+          </div>
+          
+
+
+        </section>
+      </section>
     </section><!---
     --><section class="related-videos">
       Aqui vão ser os vídeos sugeridos

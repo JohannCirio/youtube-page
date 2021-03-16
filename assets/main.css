@@ -1,31 +1,43 @@
 header { 
-  background-color: darkgoldenrod;
-  height: 50px;
-
+  background-color: gray;
+  height: 56px;
+  
 }
 
-#burger-icon {
-  height: 18px;
+nav {
+  padding: 0 25px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-#youtube-logo {
-  height: 18px;
+#navbar-left {
+  width: 11%;
+  display: flex;
+  justify-content: space-between;
 }
 
-#search-bar{
-  height: 18px;
+.navbar-item {
+  height: 20px;
 }
 
-#keyboard {
-  height: 18px;
+#search-field-container {
+  display: flex;
+  align-items: center;
 }
 
-#microphone {
-  height: 18px;
+#navbar-right {
+  display: flex;
+  width: 15%;
+  justify-content: space-between;
 }
 
-section,
+
+
+
 .main-video {
+  padding-top:  50px;
   background-color: cadetblue;
   display: inline-block;
   box-sizing: border-box;
@@ -33,7 +45,6 @@ section,
   
 }
 
-section,
 .related-videos {
   background-color: chartreuse;
   display: inline-block;
