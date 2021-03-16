@@ -1,5 +1,5 @@
 header { 
-  background-color: gray;
+  background-color: white;
   height: 56px;
   
 }
@@ -15,17 +15,58 @@ nav {
 #navbar-left {
   width: 11%;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
 .navbar-item {
-  height: 20px;
+  height: 23px;
 }
 
-#search-field-container {
+#youtube-logo {
+  height: 19px;
+}
+
+#navbar-center {
+  width: 55%;
   display: flex;
   align-items: center;
+  justify-content: center;
+  
 }
+
+#navbar-search-container {
+  padding: 0 7px;
+  height: 25px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: solid gray 1px;
+}
+
+#search-field {
+  border: none;
+  width: 90%;
+}
+
+#search-button {
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  width: 7%;
+  background-color: rgb(248, 248, 248);
+  border-right: 1px gray solid;
+  border-top: 1px gray solid;
+  border-bottom: 1px gray solid;
+  
+}
+
+#keyboard {
+  color: gray;
+}
+
+
 
 #navbar-right {
   display: flex;
