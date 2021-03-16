@@ -1,0 +1,43 @@
+header { 
+  background-color: darkgoldenrod;
+  height: 50px;
+
+}
+
+#burger-icon {
+  height: 18px;
+}
+
+#youtube-logo {
+  height: 18px;
+}
+
+#search-bar{
+  height: 18px;
+}
+
+#keyboard {
+  height: 18px;
+}
+
+#microphone {
+  height: 18px;
+}
+
+section,
+.main-video {
+  background-color: cadetblue;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 70%;
+  
+}
+
+section,
+.related-videos {
+  background-color: chartreuse;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 30%;
+  
+}
