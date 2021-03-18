@@ -1,3 +1,12 @@
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+input:focus {
+  outline: none;
+}
+
 header { 
   background-color: white;
   height: 56px;
@@ -16,7 +25,7 @@ nav {
   width: 11%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content:flex-start;
 }
 
 .navbar-item {
@@ -25,10 +34,11 @@ nav {
 
 #youtube-logo {
   height: 19px;
+  padding-left: 20px;
 }
 
 #navbar-center {
-  width: 55%;
+  width: 45%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,11 +48,15 @@ nav {
 #navbar-search-container {
   padding: 0 7px;
   height: 25px;
-  width: 90%;
+  width: 80%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: solid gray 1px;
+  border: solid lightgrey 1px;
+}
+
+#navbar-search-container:focus {
+  border-color: darkblue;
 }
 
 #search-field {
@@ -54,11 +68,12 @@ nav {
   height: 25px;
   display: flex;
   justify-content: center;
-  width: 7%;
+  align-items: center;
+  width: 10%;
   background-color: rgb(248, 248, 248);
-  border-right: 1px gray solid;
-  border-top: 1px gray solid;
-  border-bottom: 1px gray solid;
+  border-right: 1px lightgrey solid;
+  border-top: 1px lightgrey solid;
+  border-bottom: 1px lightgrey solid;
   
 }
 
@@ -66,16 +81,30 @@ nav {
   color: gray;
 }
 
+#magnifying-lens {
+  height: 16px;
+}
 
+#microphone {
+  padding-left: 10px;
+  height: 18px;
+}
 
 #navbar-right {
   display: flex;
   width: 15%;
-  justify-content: space-between;
+  justify-content: flex-end;
+  align-items: center;
 }
 
+.navbar-right-item {
+  height: 23px;
+  padding-left: 23px;
+}
 
-
+#user-logo {
+  height: 30px;
+}
 
 .main-video {
   padding-top:  50px;
